@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #e9e9e9;
+    display: flex;
+    background-image: url("../images/bg\ sunset.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+/* Barra de navegación */
+
+.row {
+    align-items: flex-start;
+    margin-top: 1em;
+}
+#navbar {
+    display:flex;
+    width: 100%;
+    text-align: start;
+    justify-content: space-between;
+    color: #e9e9e9;
+    font-size: 0.8em;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center; 
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 2em;
+}
+
+.nav-links li:hover {
+    background-color: black;
+    opacity: 0.8;
+    cursor: text;
+}
+
+.nav-links li a:hover{
+    color: #e9e9e9;  
+}
+
+.nav-links li a {
+    color:#e9e9e9;
+    text-decoration: none;
+}
+
+/* Contenido presentación*/ 
+
+#presentation {
+    display: flex;
+    position: right;
+    width: 23em;
+    height:40em;
+    background-color: black;
+    opacity: 0.8;
+    margin-top:0;
+    margin-right: 0;
+}
+
+.title {
+    font-size: 1.5em;
+    color: whitesmoke;
+    margin-top: 0;
+    text-align: center;
+    padding: 0;
+
+}
+
+.line {
+    width: 10em;
+    height: 0.3em;
+    background: red;
+    border-radius: 5px;
+    padding:0;
+    justify-content: flex-end;
+}
+
+.intro {
+    color: whitesmoke;
+    margin-left: 0.5em;
+    margin-right: 1em;
+    margin-top: 0;
+    font-size: 1em;
+    text-align: justify;
+}
